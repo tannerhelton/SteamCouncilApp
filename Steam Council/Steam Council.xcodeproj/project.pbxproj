@@ -1,0 +1,311 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F55D251A1E4D31910048E3FC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F55D25191E4D31910048E3FC /* AppDelegate.swift */; };
+		F55D251C1E4D31910048E3FC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F55D251B1E4D31910048E3FC /* ViewController.swift */; };
+		F55D251F1E4D31910048E3FC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F55D251D1E4D31910048E3FC /* Main.storyboard */; };
+		F55D25211E4D31910048E3FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F55D25201E4D31910048E3FC /* Assets.xcassets */; };
+		F55D25241E4D31910048E3FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F55D25221E4D31910048E3FC /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F55D25161E4D31910048E3FC /* Steam Council.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Steam Council.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F55D25191E4D31910048E3FC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F55D251B1E4D31910048E3FC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F55D251E1E4D31910048E3FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F55D25201E4D31910048E3FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F55D25231E4D31910048E3FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F55D25251E4D31910048E3FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F55D25131E4D31910048E3FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F55D250D1E4D31910048E3FC = {
+			isa = PBXGroup;
+			children = (
+				F55D25181E4D31910048E3FC /* Steam Council */,
+				F55D25171E4D31910048E3FC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F55D25171E4D31910048E3FC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F55D25161E4D31910048E3FC /* Steam Council.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F55D25181E4D31910048E3FC /* Steam Council */ = {
+			isa = PBXGroup;
+			children = (
+				F55D25191E4D31910048E3FC /* AppDelegate.swift */,
+				F55D251B1E4D31910048E3FC /* ViewController.swift */,
+				F55D251D1E4D31910048E3FC /* Main.storyboard */,
+				F55D25201E4D31910048E3FC /* Assets.xcassets */,
+				F55D25221E4D31910048E3FC /* LaunchScreen.storyboard */,
+				F55D25251E4D31910048E3FC /* Info.plist */,
+			);
+			path = "Steam Council";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F55D25151E4D31910048E3FC /* Steam Council */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F55D25281E4D31910048E3FC /* Build configuration list for PBXNativeTarget "Steam Council" */;
+			buildPhases = (
+				F55D25121E4D31910048E3FC /* Sources */,
+				F55D25131E4D31910048E3FC /* Frameworks */,
+				F55D25141E4D31910048E3FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Steam Council";
+			productName = "Steam Council";
+			productReference = F55D25161E4D31910048E3FC /* Steam Council.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F55D250E1E4D31910048E3FC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "TWH Technologies";
+				TargetAttributes = {
+					F55D25151E4D31910048E3FC = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 3P3B5AJANL;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = F55D25111E4D31910048E3FC /* Build configuration list for PBXProject "Steam Council" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F55D250D1E4D31910048E3FC;
+			productRefGroup = F55D25171E4D31910048E3FC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F55D25151E4D31910048E3FC /* Steam Council */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F55D25141E4D31910048E3FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F55D25241E4D31910048E3FC /* LaunchScreen.storyboard in Resources */,
+				F55D25211E4D31910048E3FC /* Assets.xcassets in Resources */,
+				F55D251F1E4D31910048E3FC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F55D25121E4D31910048E3FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F55D251C1E4D31910048E3FC /* ViewController.swift in Sources */,
+				F55D251A1E4D31910048E3FC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F55D251D1E4D31910048E3FC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F55D251E1E4D31910048E3FC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F55D25221E4D31910048E3FC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F55D25231E4D31910048E3FC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F55D25261E4D31910048E3FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		F55D25271E4D31910048E3FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F55D25291E4D31910048E3FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3P3B5AJANL;
+				INFOPLIST_FILE = "Steam Council/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.twhtechnologies.Steam-Council";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		F55D252A1E4D31910048E3FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3P3B5AJANL;
+				INFOPLIST_FILE = "Steam Council/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.twhtechnologies.Steam-Council";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F55D25111E4D31910048E3FC /* Build configuration list for PBXProject "Steam Council" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F55D25261E4D31910048E3FC /* Debug */,
+				F55D25271E4D31910048E3FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F55D25281E4D31910048E3FC /* Build configuration list for PBXNativeTarget "Steam Council" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F55D25291E4D31910048E3FC /* Debug */,
+				F55D252A1E4D31910048E3FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F55D250E1E4D31910048E3FC /* Project object */;
+}
